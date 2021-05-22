@@ -12,7 +12,7 @@ console.log(changeImg);
 
 if(window.matchMedia('(max-width: 769px)').matches) {
   changeImg.forEach((one,index) => {
-    one.src = `../images/mobile/image-${img[index]}.jpg`
+    one.src = `images/mobile/image-${img[index]}.jpg`
   })
 }
 
